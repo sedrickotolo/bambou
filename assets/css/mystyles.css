@@ -1,3 +1,14 @@
 .my-justify{
     text-align: justify;
 }
+/* Center text on mobile devices (up to 768px width) */
+@media (max-width: 768px) {
+    /* You can adjust the maximum width (768px) as needed */
+    .center-text-phone {
+      text-align: center;
+    }
+  }
+  
+  /* Your regular CSS styles for larger screens go here */
+  
+  
