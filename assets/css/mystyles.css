@@ -11,4 +11,18 @@
   
   /* Your regular CSS styles for larger screens go here */
   
-  
+  .font-increase{
+    font-size: 23px;
+    
+  }
+  .line-height{
+    line-height: 35px;
+  }
+
+  .bg-how-we-do-it{
+    background-color: #becd68;
+  }
+
+  .top-padding{
+    
+  }
