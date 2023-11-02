@@ -33,6 +33,9 @@
     background-color: #43ba7f;
   }
 
+  .header-text h2{
+    font-size: large;
+  }
   
   .center-div {
       display: flex;
