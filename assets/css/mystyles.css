@@ -12,7 +12,7 @@
   /* Your regular CSS styles for larger screens go here */
   
   .font-increase{
-    font-size: 23px;
+    font-size: 18px;
     
   }
   .line-height{
@@ -32,3 +32,18 @@
   .bg-how-we-do-it-bg{
     background-color: #43ba7f;
   }
+
+  
+  .center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Adjust this as needed for your layout */
+  }
+
+  @media (max-width: 767px) {
+    .mobile-about{
+      padding: 0 !important;
+      text-align: justify;
+    }
+}
