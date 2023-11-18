@@ -22,6 +22,50 @@
     <link rel="stylesheet" href="assets/css/mystyles.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <style>
+      /* Style for the investment cards */
+/* Section style */
+.invest-section {
+  padding: 60px 0;
+  background-color: #f8f8f8;
+}
+
+/* Invest Card style */
+.invest-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.invest-card:hover {
+  transform: translateY(-5px);
+}
+
+.invest-card .left-image img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.invest-card .right-content {
+  padding: 20px;
+}
+
+.invest-card h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.invest-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+    </style>
 <!--
 
 
@@ -83,7 +127,7 @@ https://templatemo.com/tm-574-mexant
   <!-- ***** Main Banner Area End ***** -->
 
   <section class="main-services">
-    <div class="container">
+    <div class="container px-5">
       <div class="row">
         <div class="col-lg-12">
           <div class="service-item">
@@ -146,83 +190,76 @@ https://templatemo.com/tm-574-mexant
     </div>
   </section>
 
-  <section class="service-details">
+  <section class="invest-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading">
-            <h6>Investment in Details</h6>
-            <h4>How we invest</h4>
-          </div>
-        </div>
-        <div class="col-lg-10 offset-lg-1">
-          <div class="naccs">
-            <div class="tabs">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="menu">
-                    <div class="active gradient-border"><span>Selection & SPV Creation</span></div>
-                    <div class="gradient-border"><span>Farm Management</span></div>
-                    <div class="gradient-border"><span>Investment</span></div>
-                    <!-- <div class="gradient-border"><span>Distributions</span></div> -->
-                  </div>
+        <div class="col-lg-12">
+          <div class="row">
+            <!-- Invest Card 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="invest-card">
+                <div class="left-image">
+                  <img src="assets/images/service-details-03.jpg" class="img-fluid" alt="Investment Image">
                 </div>
-                <div class="col-lg-12">
-                  <ul class="nacc">
-                    <li class="active">
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/mm.png" class="img-fluid">
-                        </div>
-                        <div class="right-content">
-                          <p class="my-justify">● We select a tiny fraction of the farmers we review, ensuring each offering is of the highest quality. Each farm and its legal title are placed into a unique production contract between BAMBOU and Farmer/ Entrepreneur.</p>
-                          <p class="my-justify"> ● Due diligence is completed, including legal work and project is posted onto the TIGInvest.co platform for capital raise. The typical time period for this is 30-90 days.</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/service-details-02.jpg" alt="">
-                        </div>
-                        <div class="right-content">
-                          <p class="my-justify">● BAMBOU handles all aspects of administration and property management, from insurance and accounting to working with local farmers and improving soil sustainability.</p>
-                          <p class="my-justify">● We work closely with our farmers and field extension managers to help with best practices, technological improvements, sustainability, and immediate access to capital. Our goal is to improve our farmers’ lives and ease of doing business in every way possible.</p>
-                          <p class="my-justify">● We charge a flat annual administration fee of 0.75% (of overall farm value) that is typically deducted from the income of the farm.</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/service-details-03.jpg" alt="">
-                        </div>
-                        <div class="right-content">
-                          <p class="my-justify">● After 6 months, each plantation is independently valued, grouped to create the SPV, and divided into units of the total partnership interests.</p>
-                          <p class="my-justify">● BAMBOU invites Investors to invest in the partnership through the SPV, semi-annually at the beginning of every planting season (usually in March & September).</p>
-                        </div>
-                      </div>
-                    </li>
-                    <!-- <li>
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/service-details-03.jpg" alt="">
-                        </div>
-                        <div class="right-content">
-                          <p>●	BAMBOU disburses excess annual income to investors. </p>
-                          <p>●	We pay out cash dividends each half year to investors in each SPV (farm business). </p>
-                        </div>
-                      </div>
-                    </li> -->
-                  </ul>
+                <div class="right-content">
+                  <h5>Selection & SPV Creation</h5>
+                  <p>● We select a tiny fraction of the farmers we review, ensuring each offering is of the highest quality...</p>
+                  <p>● Due diligence is completed, including legal work and project is posted onto the TIGInvest.co platform...</p>
                 </div>
               </div>
             </div>
+            <!-- Invest Card 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="invest-card">
+                <div class="left-image">
+                  <img src="assets/images/service-details-02.jpg" class="img-fluid" alt="Investment Image">
+                </div>
+                <div class="right-content">
+                  <h4>Farm Management</h4>
+                  <p>● BAMBOU handles all aspects of administration and property management, from insurance...</p>
+                  <p>● We work closely with our farmers and field extension managers to help with best practices...</p>
+            
+                </div>
+              </div>
+            </div>
+            <!-- Invest Card 3 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="invest-card">
+                <div class="left-image">
+                  <img src="assets/images/service-details-03.jpg" class="img-fluid" alt="Investment Image">
+                </div>
+                <div class="right-content">
+                  <h4>Investment</h4>
+                  <p>● After 6 months, each plantation is independently valued, grouped to create the SPV...</p>
+                  <p>● BAMBOU invites Investors to invest in the partnership through the SPV...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Invest Card 4 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="invest-card">
+                <div class="left-image">
+                  <img src="assets/images/service-details-03.jpg" class="img-fluid" alt="Investment Image">
+                </div>
+                <div class="right-content">
+                  <h4>Distributions</h4>
+                  <p>● BAMBOU distributes excess annual income to investors, ensuring a fair share of profits...</p>
+                  <p>● We provide cash dividends biannually to investors, adding financial value to their investments...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Add more Invest Cards if needed -->
+            <!-- Invest Card 5 -->
+            <!-- ... -->
           </div>
         </div>
       </div>
     </div>
   </section>
+  
+  
+
+  
 
   <section class="top-section">
     <div class="container">
@@ -284,62 +321,48 @@ https://templatemo.com/tm-574-mexant
 
 
   <section class="partners">
-    <div class="container">
+    
+    <div class="container px-5">
+    
+      <div class="col-sm-12 mb-4">
+        <h3 class="text-center text-white">Our partners</h3>
+      </div>
       <div class="row">
-        <div class="col-lg-2 col-sm-4 col-6">
+        <div class="col-lg-3 col-sm-12 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="assets/images/partner1.png" alt="">
+           <p class="text-white">UGEFA - Uganda Green Enterprise Finance Accelerator</p>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4 col-6">
+        <div class="col-lg-3 col-sm-12 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="assets/images/partner12.png" alt="">
+            <p class="text-white">INBAR - International Bamboo and Rattan Organization</p>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4 col-6">
-          <div class="item">
-            <img src="assets/images/client-01.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-6">
-          <div class="item">
-            <img src="assets/images/client-01.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-6">
-          <div class="item">
-            <img src="assets/images/client-01.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-6">
-          <div class="item">
-            <img src="assets/images/client-01.png" alt="">
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">        
-            <div class="col-sm-4 text-justify">
-              <p class="my-justify"><b>Bambou Planting Empowerment Ltd</b> is on track to becoming the leading bamboo plantation company in Uganda by adopting an aggressive collaboration strategy with Smallholder farmers.</p>
-            </div>
-            <div class="col-sm-4 mt-3">
-              <p>Address: Plot 640-642, <br> Gombe A, Wakiso Town Council, Wakiso.
-                Email: info@bambou.eco 
-                </p>
-            </div>
-            <div class="col-sm-4">
-              <a class="my-justify" href="about-us.html">About Us</a> <br>
-              <a class="my-justify" href="invest.html">Invest</a> <br>
-              <a class="my-justify" href="contact-us.html">Contact Us</a>
-             </div>
-        
+  <footer class="mt-5">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <p class="my-justify"><b>Bambou Planting Empowerment Ltd is on track to becoming the leading bamboo plantation company in Uganda by adopting Agrisilvipasture production systems and an aggressive Collaboration strategy with Smallholder farmers</b></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+          <p>Address: Plot 640-642, <br> Gombe A, Wakiso Town Council, Wakiso.<br>Email: info@bambou.eco</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <a class="my-justify" href="about-us.html">About Us</a> <br>
+          <a class="my-justify" href="invest.html">Invest</a> <br>
+          <a class="my-justify" href="contact-us.html">Contact Us</a>
+        </div>
       </div>
     </div>
   </footer>
+  
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
