@@ -16,6 +16,10 @@
     
   }
 
+  .about-font{
+    font-size: 20px !important;
+  }
+
   .section-bg{
     background-color: #43ba7e37;
   }
